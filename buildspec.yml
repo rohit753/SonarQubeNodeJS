@@ -1,4 +1,4 @@
-version: 0.2
+version: 1.0
 run-as: root
 env:
   variables:
