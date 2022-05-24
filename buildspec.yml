@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+hosts: localhost
 version: 1.0
 run-as: root
 env:
