@@ -10,5 +10,5 @@
      args:
       chdir: ~/SonarQubeNodeJS
    - name: start App
-      command: forever start /home/ubuntu/SonarQubeNodeJS/app/server.js
+     command: forever start /home/ubuntu/SonarQubeNodeJS/app/server.js
     
