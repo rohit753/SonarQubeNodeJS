@@ -1,6 +1,6 @@
 ---
--hosts:webservers
- tasks:
+- hosts: webservers
+  tasks:
    -name: install forever
     npm: name=forever global=yes state=present
    -name: clone Git Repo
