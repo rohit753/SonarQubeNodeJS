@@ -3,6 +3,8 @@
   tasks:
    - name: Install forever
      npm: name=forever global=yes state=present
+   - name: Go to the folder and execute command
+     command: chdir=/home/ubuntu/SonarQubeNodeJS
    - name: npm install
      command: npm install
    - name: start App
