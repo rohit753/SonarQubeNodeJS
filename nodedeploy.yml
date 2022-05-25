@@ -1,0 +1,12 @@
+---
+- hosts: webservers
+  tasks:
+   - name: Install forever
+     npm: name=forever global=yes state=present
+
+   - name: npm installation
+     
+     command: npm install
+
+   - name: start nodejs
+     command: forever start SonarQubeNodeJS/app/views/index.html
