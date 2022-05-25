@@ -5,6 +5,8 @@
      npm: name=forever global=yes state=present
    - name: npm install
      command: npm install
+     args: 
+      chdir: ~/SonarQubeNodeJS
    - name: start App
      command: forever start /home/ubuntu/SonarQubeNodeJS/app/server.js
     
