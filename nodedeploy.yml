@@ -3,8 +3,6 @@
   tasks:
    - name: Install forever
      npm: name=forever global=yes state=present
-   - name: clone Git Repo
-     command: git clone https://github.com/rohit753/SonarQubeNodeJS.git
    - name: npm install
      command: npm install
    - name: start App
